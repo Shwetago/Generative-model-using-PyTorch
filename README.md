@@ -8,9 +8,9 @@ DCGAN is one of the popular and successful network design for GAN. It mainly com
 
 Here is the summary of DCGAN:
 
-Replace all max pooling with convolutional stride
-Use transposed convolution for upsampling.
-Eliminate fully connected layers.
-Use Batch normalization except the output layer for the generator and the input layer of the discriminator.
-Use ReLU in the generator except for the output which uses tanh.
-Use LeakyReLU in the discriminator.
+- Replace all max pooling with convolutional stride
+- Use transposed convolution for upsampling.
+- Eliminate fully connected layers.
+- Use Batch normalization except the output layer for the generator and the input layer of the discriminator.
+- Use ReLU in the generator except for the output which uses tanh.
+- Use LeakyReLU in the discriminator.
